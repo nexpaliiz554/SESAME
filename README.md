@@ -75,7 +75,7 @@ Specifically, our approach first leverages the overall-polarity-labeled data to 
    java -Xmx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -serverProperties StanfordCoreNLP-chinese.properties -port 9000 -timeout 15000
    ```
 
-3. *Addition*: If you need to use ChatGPT’s NLP analysis as a supplement:  1) Use `POS_Tagging/gpt_pos_tagger.py` to obtain ChatGPT’s word segmentation and POS tagging results. 2) Use `POS_Tagging/data_process.py` to compare the outputs of ChatGPT and CoreNLP, and replace the analysis results of texts where ChatGPT has made clear errors (the output file will only include texts that need replacement and their corresponding ChatGPT NLP analysis results). 3) Place the generated file '{target}_tagged.txt' in the `data_WWW2025/gpt_POS_supplement` folder for further analysis.
+3. *Addition*: If you need to use ChatGPT’s NLP analysis as a supplement:  1) Use `POS_Tagging/gpt_pos_tagger.py` to obtain ChatGPT’s word segmentation and POS tagging results. 2) Use `POS_Tagging/data_process.py` to compare the outputs of ChatGPT and CoreNLP, and replace the analysis results of texts where ChatGPT has made clear errors (the output file will only include texts that need replacement and their corresponding ChatGPT NLP analysis results). 3) Place the generated file '{target}_tagged.txt' in the `data/gpt_POS_supplement` folder for further analysis.
 
   - *For aspect extraction in the third stage*:
 

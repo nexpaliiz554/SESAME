@@ -1,7 +1,7 @@
 # SESAME: Leveraging Labeled Overall Polarities for Aspect-based Sentiment Analysis based on SHAP-Enhanced Syntactic Analysis
 
 <div align=center>
-  <img src="https://github.com/nexpaliiz554/WWW2025/blob/main/schematicDiagram.png" width="500" >
+  <img src="https://github.com/nexpaliiz554/SESAME/blob/main/schematicDiagram.png" width="500" >
 </div>
 
 In this paper, we propose an Aspect-Sentiment-Pair-Extraction (ASPE) approach that extracts aspect-sentiment pairs (a,s) through syntactic analysis guided by AI explainable framework, relying solely on the labeled overall sentiment polarities instead of additionally introduced manual annotations.
@@ -62,7 +62,7 @@ Specifically, our approach first leverages the overall-polarity-labeled data to 
 
 - *For the classifier in stage one*:
 
-1. If you wish to reproduce our paper's data, you can download our pre-trained models from [NexpaLiiz554/SESAME on Hugging Face](https://huggingface.co/NexpaLiiz554/SESAME-WWW2025/tree/main) (the four models in the provided link serve as the foundational models for our ablation experiments), and place them in the ```data/pretrained```.
+1. If you wish to reproduce our paper's data, you can download our pre-trained models from [NexpaLiiz554/SESAME on Hugging Face](https://huggingface.co/NexpaLiiz554/SESAME/tree/main) (the four models in the provided link serve as the foundational models for our ablation experiments), and place them in the ```data/pretrained```.
 2. If you intend to retrain the classifier, for English, please download the pre-trained RoBERTa model from  [HuggingFace](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment/tree/main), and for Chinese, please download it from [ymcui/Chinese-BERT-wwm](https://github.com/ymcui/Chinese-BERT-wwm).
 
 - *For the extraction of representative words in the second stage*:
@@ -79,7 +79,7 @@ Specifically, our approach first leverages the overall-polarity-labeled data to 
 
   - *For aspect extraction in the third stage*:
 
-    You can directly download SentiAspectExtractor.jar from  [nexpaliiz554/SESAME on Hugging Face](https://huggingface.co/NexpaLiiz554/SESAME-WWW2025/tree/main) . **Additionally**, we have open-sourced this code on GitHub at [nexpaliiz554/SentiAspectExtractor.](https://github.com/nexpaliiz554/SentiAspectExtractor)
+    You can directly download SentiAspectExtractor.jar from  [nexpaliiz554/SESAME on Hugging Face](https://huggingface.co/NexpaLiiz554/SESAME/tree/main) . **Additionally**, we have open-sourced this code on GitHub at [nexpaliiz554/SentiAspectExtractor.](https://github.com/nexpaliiz554/SentiAspectExtractor)
 
     Finally, configure your config.py
 

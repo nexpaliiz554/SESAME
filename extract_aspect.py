@@ -23,7 +23,7 @@ def extract_aspect(target_name:str, lang:str, text_list:list,  opinion_list: lis
                             "camera": camera_pos_optimization,
                             "laptop":"",
                             "rest16":"",}
-    jar_fname = f'{BASE_DIR}/data/pred_aspect/SentiAspectExtractor_2024.10.12.jar'
+    jar_fname = f'{BASE_DIR}/data/pred_aspect/SentiAspectExtractor.jar'
     if len(potential_aspect_boolean_list)==len(opinion_list):
         with open(input_fname, 'w', encoding='utf-8') as f:
             for text, opinions, potential_aspect_booleans in zip(text_list, opinion_list,potential_aspect_boolean_list):

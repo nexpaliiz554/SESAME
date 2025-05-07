@@ -1,4 +1,4 @@
-# SESAME: Leveraging Labeled Overall Polarities for Aspect-based Sentiment Analysis based on SHAP-Enhanced Syntactic Analysis
+# SESAME: Deducing Sentiment Aspects from Coarse Sentiment Polarities by SHAP-Guided Syntactic Analysis
 
 <div align=center>
   <img src="https://github.com/nexpaliiz554/SESAME/blob/main/schematicDiagram.png" width="500" >
